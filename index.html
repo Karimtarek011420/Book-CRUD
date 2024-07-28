@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD OPeration System</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container py-5">
+      <h1 class="pb-3 text-muted">Bookmarker</h1>
+      <hr />
+      <div class="text-center bg-secondary bg-opacity-25 py-4">
+        <h3 class="text-muted">Bookmarker your favorite sites</h3>
+        <p class="pt-3">Site Name</p>
+        <div class="form-floating mx-4">
+          <input
+            type="text"
+            class="form-control"
+            id="floatingInput"
+            placeholder="name@example.com"
+          />
+          <label for="floatingInput">Bookmarker Name</label>
+        </div>
+        <p class="pt-3">Site URL</p>
+        <div class="form-floating mx-4 mb-3">
+          <input
+            type="text"
+            class="form-control"
+            id="floatingInput1"
+            placeholder="name@example.com"
+          />
+          <label for="floatingInput1">WebSite URL</label>
+        </div>
+        <div class="mx-4 ">
+          <button type="button" class="btn btn-outline-info form-control d-block"> Submit</button>
+        </div>
+        <div class="mx-4">
+          <button type="button" class="btn btn-outline-info form-control d-none btnload"> UPload</button>
+        </div>
+      </div>
+      <div class="output py-5  table-responsive" id="more-tables">
+        <table class="table table-hover text-center">
+          <thead>
+
+          </thead>
+          <tbody>
+           
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

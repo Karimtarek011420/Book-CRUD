@@ -1,0 +1,29 @@
+a{
+    text-decoration: none;
+    color: ;
+}
+@media screen and (max-width :600px) {
+    #more-tables tbody , #more-tables tr ,  #more-tables td {
+        display: block;
+    }
+    #more-tables thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    #more-tables td {
+        position: relative;
+        padding-left: 50%;
+    }
+    #more-tables tbody tr ,#exampleSerach {
+        border: 1px solid black;
+
+    }
+    #more-tables td::before{
+        content: attr(data-title);
+        position: absolute;
+        left: 6px;
+        font-weight: bolder;
+    }
+    
+}
